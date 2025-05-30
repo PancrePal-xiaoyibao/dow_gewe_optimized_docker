@@ -31225,3 +31225,4 @@ RuntimeError: {"ret":500,"msg":"获取二维码失败:","data":{"code":"-1","msg
 最后提醒患者应以主治和专业医生意见为准，AI产生信息可能存在信息偏差。
 [WARNING][2025-05-30 18:19:58][gewechat_message.py:321] - [gewechat] Missing 'NewMsgId' in message data
 [WARNING][2025-05-30 18:22:28][gewechat_message.py:321] - [gewechat] Missing 'NewMsgId' in message data
+[WARNING][2025-05-30 18:37:14][gewechat_message.py:321] - [gewechat] Missing 'NewMsgId' in message data
