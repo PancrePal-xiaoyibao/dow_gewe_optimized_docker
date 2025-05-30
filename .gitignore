@@ -1,0 +1,21 @@
+/tmp/*
+config.json
+config.py
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Environment
+.env
+venv/
