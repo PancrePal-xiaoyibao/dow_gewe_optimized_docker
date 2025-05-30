@@ -1,0 +1,44 @@
+{
+    "channel_type": "gewechat",
+    "gewechat_app_id": "wx_ewlPtqE2s4DTtfNM31uub",
+    "gewechat_base_url": "https://www.geweapi.com/gewe/v2/api",
+    "gewechat_callback_url": "http://112.65.86.214:9919/v2/api/callback/collect",
+    "gewechat_download_url": "https://www.geweapi.com/gewe/v2/api/message/downloadImage",
+    "gewechat_region_id": "320000",
+    "gewechat_token": "c9c63d62-99c9-4d8d-8735-e78277d5d296",
+    "group_chat_prefix": [
+        "xyb",
+        "Xyb",
+        "@小胰宝宝亲护版"
+    ],
+    "group_chat_reply_prefix": "[小胰宝亲护版] ",
+    "group_name_white_list": [
+        "ALL_GROUP"
+    ],
+    "image_analyze_keyword": [
+        "分析图片"
+    ],
+    "image_cache_clean_interval": 600,
+    "image_cache_timeout": 60,
+    "image_recognition": true,
+    "model": "gpt-4o-mini",
+    "open_ai_api_base": "https://ai.xiaoyibao.com.cn/api/v1",
+    "open_ai_api_key": "fastgpt-oVo1ZQI4LgotioOuiKvA9PPbodmkih3x9kmydwGBiQc4qHeDPOfRRedntD33Sf7",
+    "s3": {
+        "access_key": "7el7pqc7",
+        "secret_key": "dzr5dl99d874c5g8",
+        "endpoint": "objectstorageapi.cloud.sealos.top",
+        "bucket": "7el7pqc7-knowledge",
+        "secure": true
+    },
+    "single_chat_prefix": [
+        "xyb",
+        "Xyb",
+        ""
+    ],
+    "single_chat_reply_prefix": "[小胰宝亲护版] ",
+    "speech_recognition": false,
+    "text_to_voice": "",
+    "voice_reply_voice": false,
+    "voice_to_text": ""
+}
