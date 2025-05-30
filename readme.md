@@ -39,7 +39,7 @@ docker-compose.yml配置中，端口映射配置需要和公网开放的端口�
 
 ## config.json配置中，必须是公网IP + 公网开放的端口才可以。
 ```json
-    "gewechat_callback_url": "http://112.65.86.214:9919/v2/api/callback/collect"
+    "gewechat_callback_url": "http://{部署的公网地址:ip}/v2/api/callback/collect"
 ```
 
 重启后就可以启动了，扫码登录。
