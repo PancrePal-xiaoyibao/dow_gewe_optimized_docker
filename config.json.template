@@ -1,0 +1,44 @@
+{
+    "channel_type": "gewechat",
+    "gewechat_app_id": "", //应用ID，参考官方文档，首次可以不填写，扫码后会获得写入
+    "gewechat_base_url": "https://www.geweapi.com/gewe/v2/api",
+    "gewechat_callback_url": "http://{部署后项目的公网IP}:{公网端口}/v2/api/callback/collect",
+    "gewechat_download_url": "https://www.geweapi.com/gewe/v2/api/message/downloadImage",
+    "gewechat_region_id": "320000",  //地区ID，参考官方文档
+    "gewechat_token": "{商业版本的gewetoken}", 
+    "group_chat_prefix": [
+        "xyb",
+        "Xyb",
+        "@小胰宝宝亲护版"
+    ],
+    "group_chat_reply_prefix": "[小胰宝亲护版] ",
+    "group_name_white_list": [
+        "ALL_GROUP"
+    ],
+    "image_analyze_keyword": [
+        "分析图片"
+    ],
+    "image_cache_clean_interval": 600, //自己设置，单位秒，图片缓存清理间隔
+    "image_cache_timeout": 60, //自己设置，单位秒，图片缓存超时时间
+    "image_recognition": true,
+    "model": "gpt-4o-mini", 
+    "open_ai_api_base": "{小X宝RAG的API域名}/api/v1",
+    "open_ai_api_key": "fastgpt-***",
+    "s3": {
+        "access_key": "{对象存储的SK}",
+        "secret_key": "{对象存储的AK}",
+        "endpoint": "{对象存储的API域名}",
+        "bucket": "{对象存储的bucket名称}",
+        "secure": true
+    },
+    "single_chat_prefix": [
+        "xyb",
+        "Xyb",
+        ""
+    ],
+    "single_chat_reply_prefix": "[小胰宝亲护版] ",
+    "speech_recognition": false,
+    "text_to_voice": "",
+    "voice_reply_voice": false,
+    "voice_to_text": ""
+}
